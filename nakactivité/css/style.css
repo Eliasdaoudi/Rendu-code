@@ -1,0 +1,59 @@
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: large;
+    background-color: #F6BD60;
+}
+
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #f7ede2;
+}
+
+body {
+    background: linear-gradient(#f28482, #F6BD60);
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: xx-large;
+}
+
+img {
+    width: 30vw;
+    height: 35vw;
+    object-fit: cover; /* Pour conserver les proportions tout en couvrant l'espace */
+}
+
+.haut_gamme, .bas_gamme {
+    display: flex;
+    flex-direction: row;
+    gap: 1vw;
+    margin: auto;
+    padding-top: 20vw;
+}
+
+.montre {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    margin: auto;
+    padding: 1vw;
+}
+
+.swiper-slide {
+    height: 40vh;
+    text-align: center;
+    font-size: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: -1;
+    margin: auto;
+}
+
+.swiper-pagination, .swiper-button-next, .swiper-button-prev {
+    color: black;
+}

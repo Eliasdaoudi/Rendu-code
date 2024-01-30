@@ -1,0 +1,36 @@
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: large;
+    background-color: #F6BD60;
+}
+
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #f7ede2;
+
+}
+
+body{
+    background: linear-gradient(#f28482, #F6BD60);
+}
+
+header{
+    gap: 1VW;
+    margin-bottom: 10vw;
+}
+
+h1{
+    font-size: xx-large;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 10vw;
+    margin-bottom: 10vw;
+    gap: 1VW ;
+}
